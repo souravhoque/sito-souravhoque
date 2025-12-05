@@ -1,0 +1,20 @@
+{
+  "hero_title": "Excel Systems di Livello Superiore",
+  "hero_text": "Piattaforma Excel di nuova generazione per aziende moderne.",
+  "button_label": "Esplora i Template",
+  "section_title": "Soluzioni Professionali",
+  "cards": [
+    {
+      "title": "Gestione Turni",
+      "text": "Dashboard Excel con automazioni intelligenti."
+    },
+    {
+      "title": "Gestione Ferie",
+      "text": "Monitoraggio ferie e assenze avanzato."
+    },
+    {
+      "title": "Gestione DPI",
+      "text": "Registro DPI con avvisi e date di scadenza."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "home"
+    label: "Homepage"
+    files:
+      - file: "content/home.json"
+        label: "Contenuto Homepage"
+        name: "home"
+        fields:
+          - { label: "Titolo Hero", name: "hero_title", widget: "string" }
+          - { label: "Testo Hero", name: "hero_text", widget: "text" }
+          - { label: "Testo Bottone", name: "button_label", widget: "string" }
+          - { label: "Titolo Sezione", name: "section_title", widget: "string" }
+          - label: "Cards"
+            name: "cards"
+            widget: "list"
+            fields:
+              - { label: "Titolo Card", name: "title", widget: "string" }
+              - { label: "Testo Card", name: "text", widget: "text" }
